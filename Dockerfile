@@ -1,5 +1,4 @@
 FROM ubuntu:20.04
-MAINTAINER PhucNT
 
 RUN set -x; \
     apt-get update \
@@ -8,4 +7,4 @@ RUN set -x; \
     && apt-get install -y --no-install-recommends \
     git curl sshpass software-properties-common python3.8 python3-pip openssh-server
 
-RUN pip install python-gitlab
+RUN pip install python-gitlab odoorpc markdownify
