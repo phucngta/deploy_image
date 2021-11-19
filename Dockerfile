@@ -7,4 +7,4 @@ RUN set -x; \
     && apt-get install -y --no-install-recommends \
     git curl sshpass software-properties-common python3.8 python3-pip openssh-server
 
-RUN pip install python-gitlab odoorpc markdownify
+RUN pip install python-gitlab odoorpc markdownify tomd
